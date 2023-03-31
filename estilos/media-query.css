@@ -2,8 +2,8 @@
 
 @media screen and (orientation: landscape) and (max-width: 768px) {
     section#login {
-        height: 350px;
-        width: 520px;
+        height: 385px;
+        width: 500px;
     }
 
     section#login > div#imagem {
@@ -27,6 +27,7 @@
 
     section#login {
         width: 80vw;
+        height: 325px;
     }
 
     section#login > div#imagem {
@@ -50,6 +51,7 @@
 
     section#login {
         width: 950px;
+        height: 325px;
     }
 
     section#login > div#imagem {
