@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
+@media screen and (orientation: landscape) and (max-width: 768px) {
+    section#login {
+        height: 80vh;
+        width: 400px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center bottom;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
 @media  screen and (min-width: 768px) and (max-width: 992px) { /* TABLETS */
     body {
         background-image: linear-gradient(to top, #49a0ad, #5f2c82);
@@ -25,7 +44,7 @@
     body {
         background-image: linear-gradient(to top, #49a0ad, #5f2c82);
     }
-    
+
     section#login {
         width: 950px;
     }
